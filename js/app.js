@@ -23,7 +23,7 @@ $(function(){
 					$('#repos').append(`
 							<div>
 								<div class="row">
-									<div>
+									<div class="repo">
 										<strong>${repo.name}</strong>: ${repo.description}
 									</div>
 									<div></div>
@@ -38,7 +38,7 @@ $(function(){
 				<div class="row">
 					<div class="one-third column">
 					 <img src="${user.avatar_url}" style="width: 100%;">
-					 <a href="${user.html_url}" target="_blank">View Profile</a>
+					 <a href="${user.html_url}" target="_blank" class="button">View Profile</a>
 					</div>
 					<div class="two-thirds column">
 						<span>Public repos: ${user.public_repos}</span>	
@@ -53,7 +53,7 @@ $(function(){
 						</ul>
 					</div>
 				</div> 
-				<h3>Latest Repos</h3>
+				<h4>Latest Repos</h4>
 				<div id="repos"></div>
 			`)
 		})

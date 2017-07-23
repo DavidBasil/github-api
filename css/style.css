@@ -1,0 +1,13 @@
+body {
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.button {
+	background-color: #f44280;
+	color: #fff;
+}
+
+.repo {
+	border-bottom: 2px solid #f44280;
+}
